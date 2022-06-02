@@ -7,9 +7,9 @@ function App() {
   const [currentPage, setCurrentPage] = useState("About");
   const [showNav, setShowNav]= useState(false)
 
-  const showNavigation = ()=>{
-    setShowNav(!showNav)
-  }
+  // const showNavigation = ()=>{
+  //   setShowNav(!showNav)
+  // }
 
 
   return (

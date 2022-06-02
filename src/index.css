@@ -26,7 +26,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+   height: 100px;
   padding: 1rem;
   background-image: url(./portfolio\ images/header.jpg);
   background-position: center;
@@ -65,6 +65,12 @@ nav {
   padding: 0.5rem;
   padding-bottom: 0.3rem;
   text-align: center;
+  color: white
+}
+
+.nav-links a:hover{
+color: rebeccapurple
+  
 }
 .active {
   border-bottom: solid 3.5px;
@@ -481,9 +487,15 @@ nav {
   background-color: #98eefe;
   padding: 2rem 0;
   margin-top:10vh;
+  height: 76vh;
 
 }
-
+#contact-me{
+  margin-top: 15px;
+}
+#hero-text{
+  margin-top: 40px ;
+}
 .contact h1 {
   display: block;
   width: fit-content;
@@ -606,7 +618,7 @@ nav {
 
 /* *********************RESUME************************** */
 .resume {
-  height: 69vh;
+  height: 76vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -650,6 +662,8 @@ nav {
   /* border: solid blue; */
   width: 80%;
   margin: 0 auto;
+  font-size: 28px;
+  text-align: center;
 }
 .resume ul {
   display: flex;

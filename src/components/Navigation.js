@@ -1,14 +1,15 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
+import {Link, NavLink } from "react-router-dom"
 
 function Navigation({ setCurrentPage, currentPage, showNav, setShowNav }) {
   return (
     <nav className={showNav ? "shownav" : ""}>
       <FaTimes className="icons close-icon" onClick={() => setShowNav(false)} />
       <ul className="nav-links">
-        <li>
-          <a
-            href="#"
+        
+        <NavLink
+            to="/"
             className={currentPage == "About" ? "active" : ""}
             onClick={() => {
               setCurrentPage("About");
@@ -16,11 +17,10 @@ function Navigation({ setCurrentPage, currentPage, showNav, setShowNav }) {
             }}
           >
             About Me
-          </a>
-        </li>
-        <li>
-          <a
-            href="#"
+        </NavLink>
+        
+        <NavLink
+            to="/Portfolio"
             className={currentPage == "Portfolio" ? "active" : ""}
             onClick={() => {
               setCurrentPage("Portfolio");
@@ -28,32 +28,32 @@ function Navigation({ setCurrentPage, currentPage, showNav, setShowNav }) {
             }}
           >
             Portfolio
-          </a>
-        </li>
-        <li>
-          <a
+        </NavLink>
+
+        <NavLink
+            to="/Contact"
             className={currentPage == "Contact" ? "active" : ""}
-            href="#"
             onClick={() => {
               setCurrentPage("Contact");
               setShowNav(false);
             }}
           >
             Contact
-          </a>
-        </li>
-        <li>
-          <a
-            href="#"
+        </NavLink>
+
+        <NavLink
+            to="/Resume"
             className={currentPage == "Resume" ? "active" : ""}
             onClick={() => {
               setCurrentPage("Resume");
               setShowNav(false);
             }}
+          
           >
             Resume
-          </a>
-        </li>
+        </NavLink>
+
+        
       </ul>
     </nav>
   );

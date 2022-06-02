@@ -12,11 +12,6 @@ function App() {
   const [currentPage, setCurrentPage] = useState("About");
   const [showNav, setShowNav]= useState(false)
 
-  // const showNavigation = ()=>{
-  //   setShowNav(!showNav)
-  // }
-
-
   return (
     <div className="App">
   <Router>

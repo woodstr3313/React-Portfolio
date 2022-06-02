@@ -15,7 +15,7 @@ function About() {
           <div className="about-img">
             <img src={image} alt="Travis Pic" />
           </div>
-          <div class="header-text">
+          <div className="header-text">
             <h2>
               Hi I'm <span>Travis</span> <span>Woods</span>
             </h2>

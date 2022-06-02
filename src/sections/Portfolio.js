@@ -1,7 +1,6 @@
 import React from "react";
 import portfolioData from "../assets/portfolioData";
 import { FaGlobe, FaGithubSquare } from "react-icons/fa";
-// import image2 from "../assets/portfolio Images/ga-hikes.jpg"
 function Portfolio() {
   return (
     <section className="My-Work" id="My-Work">
@@ -42,17 +41,3 @@ function Portfolio() {
 
 export default Portfolio;
 
-// {
-  /* <div class="work-card">
-          <div class="card-image" style="background: url('./Assets/img/ga-hikes.jpg');   background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;">
-              <h3>GA Hikes</h3>
-              <div class="layer"></div>
-          </div>
-          <div class="card-footer">
-              <a href="https://amachkel.github.io/GA-hikes/"><i class="fa-solid fa-globe"></i></i></a>
-
-              <a href="https://github.com/woodstr3313/GA-hikes"><i class="fa-brands fa-github"></i></a>
-          </div> */
-// }

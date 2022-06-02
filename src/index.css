@@ -90,15 +90,10 @@ color: rebeccapurple
 }
 
 .text {
-  /* height: 100px; */
   display: inline-block;
-  /* font-size: 100px; */
-  /* line-height: 84%; */
-  /* padding-left: 7px; */
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  /* margin-top: calc(50vh - 100px); */
   text-shadow: 7px 7px 0px #d2d2d22e;
 }
 
@@ -529,11 +524,9 @@ color: rebeccapurple
   margin: 1rem 0;
 }
 .contact form label {
-  /* border: solid blue; */
   margin: 0.5rem 0;
   font-size: 1.1rem;
   font-weight: bold;
-  /* width: 20%; */
 }
 .contact form input {
   height: 2rem;
@@ -566,7 +559,6 @@ color: rebeccapurple
   .contact form div {
     flex-direction: row;
     align-items: unset;
-    /* justify-content: center; */
   }
   .contact form label {
     width: 30%;
@@ -659,7 +651,6 @@ color: rebeccapurple
 
 
 .proficiency h3 {
-  /* border: solid blue; */
   width: 80%;
   margin: 0 auto;
   font-size: 28px;

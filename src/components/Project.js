@@ -5,13 +5,13 @@ import Contact from "../sections/Contact";
 import Resume from "../sections/Resume";
 
 function Project({ currentPage, setCurrentPage }) {
-  if (currentPage == "About") {
+  if (currentPage === "About") {
     return <About />;
-  } else if (currentPage == "Portfolio") {
+  } else if (currentPage === "Portfolio") {
     return <Portfolio />;
-  } else if (currentPage == "Contact") {
+  } else if (currentPage === "Contact") {
     return <Contact />;
-  } else if (currentPage == "Resume") {
+  } else if (currentPage === "Resume") {
     return <Resume />;
   }
 }

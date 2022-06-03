@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Project from "./components/Project";
+// import Project from "./components/Project";
 import { useState } from "react";
 import About from "./sections/About";
 import Portfolio from "./sections/Portfolio";

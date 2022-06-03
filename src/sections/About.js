@@ -5,7 +5,7 @@ function About() {
 
     const handleClick=(e)=>{
         e.preventDefault();
-        window.location.href = "./Contact";
+        window.location.href = "/Contact";
     }
   return (
     <div className="about-section" id="About">

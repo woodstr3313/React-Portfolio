@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/Travis Woods Resume 22 PDF.pdf";
+import resume from "../assets/resume.pdf";
 function Resume() {
   return (
     <div className="resume">

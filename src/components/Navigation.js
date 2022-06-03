@@ -10,7 +10,7 @@ function Navigation({ setCurrentPage, currentPage, showNav, setShowNav }) {
         
         <NavLink
             to="/"
-            className={currentPage == "About" ? "active" : ""}
+            className={currentPage === "About" ? "active" : ""}
             onClick={() => {
               setCurrentPage("About");
               setShowNav(false);
@@ -21,7 +21,7 @@ function Navigation({ setCurrentPage, currentPage, showNav, setShowNav }) {
         
         <NavLink
             to="/Portfolio"
-            className={currentPage == "Portfolio" ? "active" : ""}
+            className={currentPage === "Portfolio" ? "active" : ""}
             onClick={() => {
               setCurrentPage("Portfolio");
               setShowNav(false);
@@ -32,7 +32,7 @@ function Navigation({ setCurrentPage, currentPage, showNav, setShowNav }) {
 
         <NavLink
             to="/Contact"
-            className={currentPage == "Contact" ? "active" : ""}
+            className={currentPage === "Contact" ? "active" : ""}
             onClick={() => {
               setCurrentPage("Contact");
               setShowNav(false);
@@ -43,7 +43,7 @@ function Navigation({ setCurrentPage, currentPage, showNav, setShowNav }) {
 
         <NavLink
             to="/Resume"
-            className={currentPage == "Resume" ? "active" : ""}
+            className={currentPage === "Resume" ? "active" : ""}
             onClick={() => {
               setCurrentPage("Resume");
               setShowNav(false);

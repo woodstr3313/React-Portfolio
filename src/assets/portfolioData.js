@@ -41,10 +41,10 @@ const portfolioData = [
     },
     {
         id:6,
-        name:'Team Profile Generator',
-        image:require('../portfolio images/TeamProfileGenerator.png'),
-        // url1:"https://floating-shore-96827.herokuapp.com",
-        url2:"https://github.com/woodstr3313/Team-Profile-Generator",
+        name:'Book Search Engine',
+        image:require('../portfolio images/BookSearchEngine.png'),
+        url1:"https://book-search-engine-gatech.herokuapp.com",
+        url2:"https://github.com/woodstr3313/Book-Search-Engine",
     
     }
 ]   

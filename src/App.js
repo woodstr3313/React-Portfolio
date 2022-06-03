@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} setShowNav={setShowNav} showNav={showNav} />
       {/* <Project currentPage={currentPage} setCurrentPage={setCurrentPage} /> */}
       <Routes>

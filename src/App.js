@@ -18,7 +18,7 @@ function App() {
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} setShowNav={setShowNav} showNav={showNav} />
       {/* <Project currentPage={currentPage} setCurrentPage={setCurrentPage} /> */}
       <Routes>
-      <Route exact path="/" element={<About/>}/>
+      <Route exact path="/" element={<About setCurrentPage={setCurrentPage}/>}/>
       <Route exact path="/Contact" element={<Contact/>}/>
       <Route exact path="/Portfolio"  element={<Portfolio/>}/>
       <Route exact path="/Resume" element={<Resume/>}/>

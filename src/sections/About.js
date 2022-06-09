@@ -1,12 +1,9 @@
 import React from "react";
 import image from "../portfolio images/Headshot.jpg";
+import { useNavigate } from "react-router-dom";
 
-function About() {
-
-    const handleClick=(e)=>{
-        e.preventDefault();
-        window.location.href = "/Contact";
-    }
+function About({ setCurrentPage }) {
+  let navigate = useNavigate();
   return (
     <div className="about-section" id="About">
       <div className="about-container">
@@ -30,26 +27,32 @@ function About() {
           fishing, hiking, playing guitar and taking my dogs out on my boat. I
           really enjoy either being out on the lake or somewhere on a beach.
         </p>
-        <div class="about-footer">
+        <div className="about-footer">
           <ul>
             <li>
               <a href="https://www.linkedin.com/in/travis-woods-54284a101/">
-                <i class="fa-brands fa-linkedin-in"></i>
+                <i className="fa-brands fa-linkedin-in"></i>
               </a>
             </li>
             <li>
               <a href="https://github.com/woodstr3313">
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
               </a>
             </li>
             <li>
               <a href="">
-                <i class="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-twitter"></i>
               </a>
             </li>
           </ul>
-          <button id="contact-me" onClick={handleClick}>
-            <a href="">Contact Me</a>
+          <button 
+            id="contact-me" className="about-footer-btn"
+            onClick={() => {
+              setCurrentPage("Contact");
+              navigate("/Contact");
+            }}
+          >
+            Contact Me
           </button>
         </div>
       </div>
@@ -58,3 +61,4 @@ function About() {
 }
 
 export default About;
+

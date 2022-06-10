@@ -24,5 +24,5 @@
 [My email: woodstr3313@gmail.com](email:woodstr3313@gmail.com)
 
 ## How to Contribute
-  Please contact me at woodstr3313@gmail.com if you would like to connect.
+  Please contact me at woodstr3313@gmail.com if you would like to connect with me.
 

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.0bdc21a1.css",
+    "main.js": "/react-portfolio/static/js/main.43052e97.js",
+    "static/media/ga-hikes.jpg": "/react-portfolio/static/media/ga-hikes.f9a7c09a7255e6c89535.jpg",
+    "static/media/BookSearchEngine.png": "/react-portfolio/static/media/BookSearchEngine.f249e387358090abd413.png",
+    "static/media/Snodes.png": "/react-portfolio/static/media/Snodes.57421a2b117070861110.png",
+    "static/media/header.jpg": "/react-portfolio/static/media/header.9ae37d51ded69b255f5a.jpg",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.0fcb465b78ecb03bddba.png",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.c1fb6b1e82ebd8b8388b.pdf",
+    "static/media/Work-Day-Planner.png": "/react-portfolio/static/media/Work-Day-Planner.c179d34ca34287839400.png",
+    "static/media/Coding-Quiz.png": "/react-portfolio/static/media/Coding-Quiz.866ebce37e4e0dc7d0fd.png",
+    "static/media/Headshot.jpg": "/react-portfolio/static/media/Headshot.6f2d656622345b23ce77.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.0bdc21a1.css.map": "/react-portfolio/static/css/main.0bdc21a1.css.map",
+    "main.43052e97.js.map": "/react-portfolio/static/js/main.43052e97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bdc21a1.css",
+    "static/js/main.43052e97.js"
+  ]
+}
